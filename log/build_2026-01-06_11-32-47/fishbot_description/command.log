@@ -1,0 +1,6 @@
+Invoking command in '/home/robot/fish_bot/build/fishbot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/robot/fish_bot/src/fishbot_description -DCMAKE_INSTALL_PREFIX=/home/robot/fish_bot/install/fishbot_description
+Invoked command in '/home/robot/fish_bot/build/fishbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/robot/fish_bot/src/fishbot_description -DCMAKE_INSTALL_PREFIX=/home/robot/fish_bot/install/fishbot_description
+Invoking command in '/home/robot/fish_bot/build/fishbot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robot/fish_bot/build/fishbot_description -- -j16 -l16
+Invoked command in '/home/robot/fish_bot/build/fishbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robot/fish_bot/build/fishbot_description -- -j16 -l16
+Invoking command in '/home/robot/fish_bot/build/fishbot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robot/fish_bot/build/fishbot_description
+Invoked command in '/home/robot/fish_bot/build/fishbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robot/fish_bot/build/fishbot_description

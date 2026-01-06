@@ -1,0 +1,17 @@
+/home/robot/fish_bot/install/fishbot_description/share/fishbot_description/launch/gazebo.launch.py
+/home/robot/fish_bot/install/fishbot_description/share/fishbot_description/urdf/urdf/fishbot_gazebo.urdf
+/home/robot/fish_bot/install/fishbot_description/share/ament_index/resource_index/package_run_dependencies/fishbot_description
+/home/robot/fish_bot/install/fishbot_description/share/ament_index/resource_index/parent_prefix_path/fishbot_description
+/home/robot/fish_bot/install/fishbot_description/share/fishbot_description/environment/ament_prefix_path.sh
+/home/robot/fish_bot/install/fishbot_description/share/fishbot_description/environment/ament_prefix_path.dsv
+/home/robot/fish_bot/install/fishbot_description/share/fishbot_description/environment/path.sh
+/home/robot/fish_bot/install/fishbot_description/share/fishbot_description/environment/path.dsv
+/home/robot/fish_bot/install/fishbot_description/share/fishbot_description/local_setup.bash
+/home/robot/fish_bot/install/fishbot_description/share/fishbot_description/local_setup.sh
+/home/robot/fish_bot/install/fishbot_description/share/fishbot_description/local_setup.zsh
+/home/robot/fish_bot/install/fishbot_description/share/fishbot_description/local_setup.dsv
+/home/robot/fish_bot/install/fishbot_description/share/fishbot_description/package.dsv
+/home/robot/fish_bot/install/fishbot_description/share/ament_index/resource_index/packages/fishbot_description
+/home/robot/fish_bot/install/fishbot_description/share/fishbot_description/cmake/fishbot_descriptionConfig.cmake
+/home/robot/fish_bot/install/fishbot_description/share/fishbot_description/cmake/fishbot_descriptionConfig-version.cmake
+/home/robot/fish_bot/install/fishbot_description/share/fishbot_description/package.xml

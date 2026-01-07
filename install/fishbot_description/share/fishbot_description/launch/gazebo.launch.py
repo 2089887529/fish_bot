@@ -27,16 +27,20 @@ def generate_launch_description():
     robot_name_in_model = 'fishbot'
     package_name = 'fishbot_description'
     urdf_name = 'fishbot_gazebo.urdf'
+    rviz_name = 'fishbot.rviz'
+    world_name = 'fishbot.world'
 
     ld = LaunchDescription()
 
     # 获取路径
     pkg_share = get_package_share_directory(package_name)
     urdf_model_path = os.path.join(pkg_share, f'urdf/urdf/{urdf_name}')
+    rviz2_config_path = os.path.join(pkg_share, f'rviz/{rviz_name}')
+    gazebo_world_path = os.path.join(pkg_share, f'world/{world_name}')
 
     # 启动Gazebo
     start_gazebo_cmd = ExecuteProcess(
-        cmd=['gazebo', '--verbose','-s', 'libgazebo_ros_init.so', '-s', 'libgazebo_ros_factory.so'],
+        cmd=['gazebo', '--verbose','-s', 'libgazebo_ros_init.so', '-s', 'libgazebo_ros_factory.so', gazebo_world_path],
         output='screen')
 
     # 生成机器人
@@ -52,7 +56,16 @@ def generate_launch_description():
         arguments=[urdf_model_path]
     )
 
+    # 启动rviz2
+    rviz2 = Node(
+        package="rviz2",
+        executable="rviz2",
+        name="rviz2",
+        arguments=['-d', rviz2_config_path]
+    )
+
     ld.add_action(start_gazebo_cmd)
     ld.add_action(spawn_entity_cmd)
     ld.add_action(start_robot_state_publisher_cmd)
+    ld.add_action(rviz2)
     return ld

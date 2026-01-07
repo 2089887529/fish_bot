@@ -1,5 +1,7 @@
 /home/robot/fish_bot/install/fishbot_description/share/fishbot_description/launch/gazebo.launch.py
 /home/robot/fish_bot/install/fishbot_description/share/fishbot_description/urdf/urdf/fishbot_gazebo.urdf
+/home/robot/fish_bot/install/fishbot_description/share/fishbot_description/rviz/fishbot.rviz
+/home/robot/fish_bot/install/fishbot_description/share/fishbot_description/world/fishbot.world
 /home/robot/fish_bot/install/fishbot_description/share/ament_index/resource_index/package_run_dependencies/fishbot_description
 /home/robot/fish_bot/install/fishbot_description/share/ament_index/resource_index/parent_prefix_path/fishbot_description
 /home/robot/fish_bot/install/fishbot_description/share/fishbot_description/environment/ament_prefix_path.sh

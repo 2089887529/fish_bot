@@ -18,7 +18,12 @@ install(DIRECTORY launch
 install(DIRECTORY urdf
   DESTINATION share/${PROJECT_NAME}
 )
-
+install(DIRECTORY rviz
+  DESTINATION share/${PROJECT_NAME}
+)
+install(DIRECTORY world
+  DESTINATION share/${PROJECT_NAME}
+)
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
